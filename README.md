@@ -21,6 +21,8 @@ Firstly the program generates a number between 1-100 from hardware entropy and u
 
 ![Sequence diagram](https://github.com/StruggleWuggle/RandomNum/assets/87583779/dc196302-a9c1-4670-a43a-8f8d1b2a6482)
 
+## Communication contract
+send HTTPS GET request using http://127.0.0.1:5000/getRand, receive a JSON file containing the seed and a random num between 0 and 1
 
 
 
